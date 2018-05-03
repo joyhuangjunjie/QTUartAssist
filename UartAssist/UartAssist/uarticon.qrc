@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Resources/Ball_6_96px.png</file>
+        <file>Resources/Closed_48px.png</file>
+        <file>Resources/open_48px.png</file>
+        <file>Resources/refresh_32px_1133650.png</file>
+        <file>Resources/6_96px_1168279_easyicon.ico</file>
+        <file>Resources/6_96px_1168279net.png</file>
+        <file>Resources/erweima.png</file>
+    </qresource>
+</RCC>

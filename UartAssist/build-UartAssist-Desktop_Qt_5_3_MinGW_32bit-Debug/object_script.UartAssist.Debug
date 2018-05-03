@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\uartassist.o
+./debug\about.o
+./debug\lorameter.o
+./debug\protocol.o
+./debug\serialprot.o
+./debug\loraterminal.o
+./debug\qrc_uarticon.o
+./debug\moc_uartassist.o
+./debug\moc_about.o
+./debug\moc_lorameter.o
+./debug\moc_loraterminal.o
+);

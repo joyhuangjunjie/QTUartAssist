@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\uartassist.o
+./release\about.o
+./release\lorameter.o
+./release\protocol.o
+./release\serialprot.o
+./release\loraterminal.o
+./release\qrc_uarticon.o
+./release\moc_uartassist.o
+./release\moc_about.o
+./release\moc_lorameter.o
+./release\moc_loraterminal.o
+);
