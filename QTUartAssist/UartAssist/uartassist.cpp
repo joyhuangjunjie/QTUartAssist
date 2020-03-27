@@ -71,8 +71,6 @@ UartAssist::~UartAssist()
 {
     delete ui;
 
-
-
 }
 
 
@@ -269,8 +267,6 @@ void UartAssist::sendData()
             StopSendDataFlag = true;
             repeatSend->start();
         }
-
-
     }
     Write();
 

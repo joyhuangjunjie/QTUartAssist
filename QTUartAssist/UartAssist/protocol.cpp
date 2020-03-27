@@ -44,7 +44,6 @@ char protocol::doRecvData(QString data, int len)
 {
    // LoRaMeter::showRecMg(data);
 
-
 }
 
 int protocol::readjzqNo()
@@ -69,7 +68,6 @@ int protocol::readjzqNo()
 
     txLen = tx->DataLen + 13; //数据帧长度
     return txLen;
-
 
 }
 

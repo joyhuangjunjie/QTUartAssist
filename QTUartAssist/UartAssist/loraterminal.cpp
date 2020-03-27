@@ -105,9 +105,9 @@ void LoRaTerminal::CommandTimeOut_deal()
 
     CommandTimeOut->stop();
     progressbarTimeout->stop();
-    CMDRUNFailBOX = new QMessageBox("超时！",       ///--这里是设置消息框标题
-     "指令超时无响应！请检查！",                           ///--这里是设置消息框显示的内容
-     QMessageBox::Question,                            ///--这里是在消息框显示的图标
+    CMDRUNFailBOX = new QMessageBox("超时！",         ///--这里是设置消息框标题
+     "指令超时无响应！请检查！",                         ///--这里是设置消息框显示的内容
+     QMessageBox::Question,                          ///--这里是在消息框显示的图标
      QMessageBox::Ok | QMessageBox::Default,         ///---这里是显示消息框上的按钮情况
      QMessageBox::Cancel | QMessageBox::Escape,      ///---这里与 键盘上的 escape 键结合。当用户按下该键，消息框将执行cancel按钮事件
      0);                                             ///---这里是 定义第三个按钮， 该例子 只是 了显示2个按钮

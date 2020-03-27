@@ -129,12 +129,6 @@ void LoRaMeter::closeEvent(QCloseEvent *event)
 
 
 
-
-
-
-
-
-
 void LoRaMeter::RecvDataProgress(QString data, int len)
 {
 
@@ -151,10 +145,8 @@ void LoRaMeter::RecvDataProgress(QString data, int len)
 //       qDebug("RecvBUF[%i]=0x%x",i,RecvBUF[i]);
 //    }
 
-
-
-  uchar sumcrc = protocol::doSUMCRC(RecvBUF,len-1);
-  qDebug("sumcrc = %02x\n",sumcrc);
+    uchar sumcrc = protocol::doSUMCRC(RecvBUF,len-1);
+    qDebug("sumcrc = %02x\n",sumcrc);
     if(sumcrc == RecvBUF[len-1]) //校验正确
     {
          qDebug("校验正确");
